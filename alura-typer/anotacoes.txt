@@ -1,0 +1,25 @@
+AULA01- Introdução
+	jquery da essa compatibilidade de funcionar em todos os navegadores
+		escreve uma vez e seu código funciona em todos os navegadores
+	escreva menos e faça mais
+
+versão slim
+	não possui ajax e nem animações
+versão comprimida
+	quando o arquivo js vem sem espaço deixando o tamanho menor
+
+jquery tem que ser importado antes do arquivo main
+	para eu poder usar no main
+
+$ é o atalho de jQuery()
+.text()
+	retorna o valor do texto dentro da tag
+	podemos colocar valores dentro dele
+		.text(numPalavras)
+
+versão 1.12 do jQuery
+	recebe atualização até hoje
+	versão que da suporte para navegadores antigos
+	Internet Explorer 6-8, Opera 12.1x ou Safari 5.1+.
+
+	
