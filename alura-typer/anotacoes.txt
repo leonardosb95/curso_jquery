@@ -1,4 +1,4 @@
-AULA01- Introdução
+--------------AULA01- Introdução----------------------------------------
 	jquery da essa compatibilidade de funcionar em todos os navegadores
 		escreve uma vez e seu código funciona em todos os navegadores
 	escreva menos e faça mais
@@ -21,5 +21,6 @@ versão 1.12 do jQuery
 	recebe atualização até hoje
 	versão que da suporte para navegadores antigos
 	Internet Explorer 6-8, Opera 12.1x ou Safari 5.1+.
+
 
 	
