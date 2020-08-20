@@ -22,5 +22,18 @@ versão 1.12 do jQuery
 	versão que da suporte para navegadores antigos
 	Internet Explorer 6-8, Opera 12.1x ou Safari 5.1+.
 
+--------------AULA02- Escutando eventos com jQuery----------------------------------------
+	campo.on()
+		ação que queremos o evento
+		campo.on("click")
+			ao clicar dispara uma função
+	val()
+		da acesso a valores que estão dentro de inputs
 
-	
+evento input
+	input
+		enquanto o usuario digita já atualiza o campo
+
+##Separando com Regexp
+	/\S+/
+		busca qualquer caracter exceto espaço
