@@ -60,3 +60,11 @@ Escutando um evento uma única vez
 	a função one()
 		escuta uma unica vez somente
 
+--------------AULA04-Reiniciando o jogo----------------------------------------
+eventos mais comuns
+	click
+		quando clica no campo
+	blur
+		quando sai do campo
+	dlblick
+		quando clica duas vezes no campo
