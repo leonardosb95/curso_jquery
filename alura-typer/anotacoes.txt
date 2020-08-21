@@ -68,3 +68,7 @@ eventos mais comuns
 		quando sai do campo
 	dlblick
 		quando clica duas vezes no campo
+
+Organizando o nosso código em funções
+	$(document).ready():
+		Aguarda a pagina ser carregada e depois executa seu conteudo
