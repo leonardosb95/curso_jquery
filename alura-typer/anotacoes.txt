@@ -37,3 +37,26 @@ evento input
 ##Separando com Regexp
 	/\S+/
 		busca qualquer caracter exceto espaço
+
+--------------AULA03- Game Over com eventos----------------------------------------
+evento focus
+	o campo ganha foco
+	ao entrar no campo
+
+setInterval()
+	executa uma função em tempos e tempos
+	milesegundos
+	para cancelar a função
+		clearInterval
+			pega o id e cancela o setInterval
+
+adicionar um atributo
+	uma função que auxilia
+	attr
+		campo.attr("rows", 500);//Podemos pegar o valor do atributo e alterar ele no segundo parametro
+
+Escutando um evento uma única vez
+	a função on fica escutando o evento toda vez
+	a função one()
+		escuta uma unica vez somente
+
