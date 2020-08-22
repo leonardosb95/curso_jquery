@@ -47,6 +47,9 @@ function inicializaCronometro() {
             if (tempoRestante < 1) {
                 campo.attr("disabled", true);
                 clearInterval(cronometroID);
+                //campo.css("background-color", "lightgray");
+                // campo.addClass("campo-desativado"); //Conseguimos chamar a folha de estilo estilos.css
+                campo.toggleClass("campo-desativado");
             }
         }, 1000);
 

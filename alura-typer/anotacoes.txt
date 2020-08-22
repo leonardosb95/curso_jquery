@@ -72,3 +72,21 @@ eventos mais comuns
 Organizando o nosso código em funções
 	$(document).ready():
 		Aguarda a pagina ser carregada e depois executa seu conteudo
+
+--------------AULA05-Funções que auxiliam os estilos----------------------------------------
+materialize
+	é um framework frontend
+
+CSS com jQuery
+	utilizando a função css()
+		campo.css("background-color", "lightgray"); //novo
+
+
+Estilizando o jogo
+	estilizar o dom com js
+
+
+Adicionando e removendo classes facilmente de um elemento
+	 campo.addClass("campo-desativado"); //Conseguimos chamar a folha de estilo estilos.css
+	 campo.removeClass("campo-desativado");//Conseguimos remover a folha de estilo estilos.css
+

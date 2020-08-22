@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Alura Typer</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <h1>Alura Typer</h1>
-    <p class="frase">Essa frase tem varias belas palavras fsadfasdfd fasfasfas fasfdas</p>
+    <h1 class="center">Alura Typer</h1>
+    <p class="frase center">Essa frase tem varias belas palavras fsadfasdfd fasfasfas fasfdas</p>
 
-    <ul class="informacoes">
+    <ul class="informacoes center">
 
-        <li><span id="tamanho-frase">19</span> palavras</li>
-        <li><span id="tempo-digitacao">10</span> segundos</li>
+        <li><i class="small material-icons">description</i><span id="tamanho-frase">19</span> palavras</li>
+        <li><i class="small material-icons">query_builder</i><span id="tempo-digitacao">10</span> segundos</li>
 
     </ul>
 
     <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
-    <button id="botao-reiniciar">Reiniciar jogo</button>
-    <ul>
+
+    <div class="botoes">
+        <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">restore</i>
+        </a>
+    </div>
+    <ul class="center">
         <li><span id="contador-caracteres">0</span> caracteres</li>
         <li><span id="contador-palavras">0</span > palavras</li>
 
     </ul>
-
-
-
-
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
