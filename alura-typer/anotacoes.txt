@@ -90,3 +90,18 @@ Adicionando e removendo classes facilmente de um elemento
 	 campo.addClass("campo-desativado"); //Conseguimos chamar a folha de estilo estilos.css
 	 campo.removeClass("campo-desativado");//Conseguimos remover a folha de estilo estilos.css
 
+	 toggleClass()
+	 	ele remove ou adiciona uma classes
+		 	quando ele for chamado, se o elemento poossuir a classe, será removida
+			 caso não será adicionada
+
+Marcação da borda
+	substr()
+		parametro 1-primeiro char
+		parametro 2-segundo char
+adicionamos borda verde para se ele acertar e vermelha caso ele erre
+
+Encapsulando o código
+
+
+
