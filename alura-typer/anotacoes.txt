@@ -103,5 +103,30 @@ adicionamos borda verde para se ele acertar e vermelha caso ele erre
 
 Encapsulando o código
 
+--------------AULA06-Criando e Manipulando elementos com jQuery----------------------------------------
 
+.find()
+	para buscar o elementos filho de uma tag
 
+.append()
+	adiciona string ao Elemento HTML
+	passa o ultimo filho do elemento como parametro
+
+Adicionando como primeiro item
+	.prepend()
+		adiciona string ao Elemento HTML
+		passa o primeiro filho do elemento como parametro
+
+Criando um botão remover
+	adicionamos via jquery
+
+Prevenindo o salto da tela
+	preventDefault()
+		conseguimos evitar um comportamento padrão de um elemento
+
+.remove()
+	remove um elemento do HTML
+
+.parent()
+	acesso o elemento pai acima
+	podemos ir subindo os níveis colocando .parent().parent()

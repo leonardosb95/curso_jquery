@@ -76,8 +76,6 @@ function inicializaCronometro() {
     });
 }
 
-
-
 function reiniciaJogo() {
     campo.attr("disabled", false);
     campo.val("");
